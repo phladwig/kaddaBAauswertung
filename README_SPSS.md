@@ -43,3 +43,5 @@ Die Datei `KIPM_statistische Auswertung_20251116_1759_nach Rohwerten bereinigte 
 
 
 
+
+

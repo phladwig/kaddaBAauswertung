@@ -1,0 +1,148 @@
+================================================================================
+VOLLSTÄNDIGE KORRELATIONSANALYSE: BIG5 UND GAAIS (SUMMEN-VARIABLEN) - SPEARMAN
+================================================================================
+
+Stichprobengröße: N = 150
+
+Verwendete Big5 Variablen (SUMMEN): ['Offenheit', 'Gewissenhaftigkeit', 'Extraversion', 'Verträglichkeit', 'Neurotizismus']
+Verwendete GAAIS Variablen (SUMMEN): ['GAAIS_positiv', 'GAAIS_negativ']
+
+Vollständige Fälle für Analyse: n = 150
+
+================================================================================
+1. DESKRIPTIVE STATISTIKEN (SUMMENWERTE)
+================================================================================
+
+Variable                              N        M       SD      Min      Max   Median
+--------------------------------------------------------------------------------
+Offenheit                           150    24.41     4.72    14.00    35.00    24.00
+Gewissenhaftigkeit                  150    28.03     4.28    16.00    39.00    28.00
+Extraversion                        150    26.53     5.46    12.00    38.00    27.00
+Verträglichkeit                     150    31.99     3.78    22.00    39.00    32.00
+Neurotizismus                       150    23.77     5.89    12.00    39.00    24.00
+GAAIS positiv                       150    45.77     8.56    12.00    60.00    46.00
+GAAIS negativ                       150    24.17     6.03    10.00    38.00    24.00
+
+================================================================================
+2. KORRELATIONEN ZWISCHEN BIG5 UND GAAIS (mit p-Werten)
+================================================================================
+
+Signifikanzniveaus: * p < .05, ** p < .01, *** p < .001
+
+--------------------------------------------------------------------------------
+SPEARMAN RANGKORRELATIONEN
+--------------------------------------------------------------------------------
+
+Offenheit ↔ GAAIS_positiv:
+  r = 0.256, p = 0.0016 **
+  Effektstärke: schwach
+  95% CI: [0.100, 0.412]
+
+Offenheit ↔ GAAIS_negativ:
+  r = 0.089, p = 0.2767 
+  Effektstärke: vernachlässigbar
+  95% CI: [-0.071, 0.250]
+
+Gewissenhaftigkeit ↔ GAAIS_positiv:
+  r = -0.005, p = 0.9497 
+  Effektstärke: vernachlässigbar
+  95% CI: [-0.166, 0.156]
+
+Gewissenhaftigkeit ↔ GAAIS_negativ:
+  r = -0.156, p = 0.0560 
+  Effektstärke: schwach
+  95% CI: [-0.316, 0.003]
+
+Extraversion ↔ GAAIS_positiv:
+  r = 0.163, p = 0.0456 *
+  Effektstärke: schwach
+  95% CI: [0.005, 0.322]
+
+Extraversion ↔ GAAIS_negativ:
+  r = 0.203, p = 0.0127 *
+  Effektstärke: schwach
+  95% CI: [0.045, 0.361]
+
+Verträglichkeit ↔ GAAIS_positiv:
+  r = 0.034, p = 0.6833 
+  Effektstärke: vernachlässigbar
+  95% CI: [-0.127, 0.195]
+
+Verträglichkeit ↔ GAAIS_negativ:
+  r = -0.080, p = 0.3327 
+  Effektstärke: vernachlässigbar
+  95% CI: [-0.240, 0.081]
+
+Neurotizismus ↔ GAAIS_positiv:
+  r = -0.229, p = 0.0049 **
+  Effektstärke: schwach
+  95% CI: [-0.386, -0.072]
+
+Neurotizismus ↔ GAAIS_negativ:
+  r = -0.288, p = 0.0004 ***
+  Effektstärke: schwach
+  95% CI: [-0.442, -0.134]
+
+================================================================================
+3. VOLLSTÄNDIGE KORRELATIONSMATRIX (Spearman ρ)
+================================================================================
+
+                       Offenheit  Gewissenha  Extraversi  Verträglic  Neurotizis  GAAIS_posi  GAAIS_nega
+--------------------------------------------------------------------------------------------------------
+Offenheit               1.00***    -0.10        0.29***    -0.02       -0.20*       0.26**      0.09    
+Gewissenhaftigkeit     -0.10        1.00***     0.02        0.18*      -0.02       -0.01       -0.16    
+Extraversion            0.29***     0.02        1.00***     0.32***    -0.21**      0.16*       0.20*   
+Verträglichkeit        -0.02        0.18*       0.32***     1.00***     0.01        0.03       -0.08    
+Neurotizismus          -0.20*      -0.02       -0.21**      0.01        1.00***    -0.23**     -0.29*** 
+GAAIS_positiv           0.26**     -0.01        0.16*       0.03       -0.23**      1.00***     0.33*** 
+GAAIS_negativ           0.09       -0.16        0.20*      -0.08       -0.29***     0.33***     1.00*** 
+
+================================================================================
+4. ÜBERSICHTSTABELLE (für wissenschaftliche Arbeit)
+================================================================================
+
+Tabelle: Korrelationen zwischen Big5-Persönlichkeitsmerkmalen und GAAIS-Subskalen (Summenwerte)
+
+                                 GAAIS positiv        GAAIS negativ
+-----------------------------------------------------------------
+Offenheit                    0.26**              0.09            
+Gewissenhaftigkeit          -0.01               -0.16            
+Extraversion                 0.16*               0.20*           
+Verträglichkeit              0.03               -0.08            
+Neurotizismus               -0.23**             -0.29***         
+-----------------------------------------------------------------
+Anmerkung. N = 150. * p < .05, ** p < .01, *** p < .001
+
+================================================================================
+5. KORRELATION ZWISCHEN GAAIS-SUBSKALEN
+================================================================================
+
+GAAIS_positiv ↔ GAAIS_negativ:
+  ρ = 0.327, p = 0.0000 ***
+
+================================================================================
+6. ZUSAMMENFASSUNG DER SIGNIFIKANTEN BEFUNDE
+================================================================================
+
+Anzahl signifikanter Korrelationen: 5 von 10
+
+Signifikante Zusammenhänge:
+
+  • Neurotizismus ↔ GAAIS_negativ:
+    r = -0.288***, schwacher negativer Zusammenhang
+
+  • Offenheit ↔ GAAIS_positiv:
+    r = 0.256**, schwacher positiver Zusammenhang
+
+  • Neurotizismus ↔ GAAIS_positiv:
+    r = -0.229**, schwacher negativer Zusammenhang
+
+  • Extraversion ↔ GAAIS_negativ:
+    r = 0.203*, schwacher positiver Zusammenhang
+
+  • Extraversion ↔ GAAIS_positiv:
+    r = 0.163*, schwacher positiver Zusammenhang
+
+================================================================================
+ANALYSE ABGESCHLOSSEN
+================================================================================
