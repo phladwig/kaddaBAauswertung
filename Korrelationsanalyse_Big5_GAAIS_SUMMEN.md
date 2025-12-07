@@ -14,17 +14,17 @@
 
 ## 1. Deskriptive Statistiken
 
-| Variable             |   N |    M |   SD |  Min |  Max |
-|:---------------------|----:|-----:|-----:|-----:|-----:|
-| Offenheit            | 150 | 2.71 | 0.52 | 1.56 | 3.89 |
-| Gewissenhaftigkeit   | 150 | 2.80 | 0.43 | 1.60 | 3.90 |
-| Extraversion         | 150 | 2.65 | 0.55 | 1.20 | 3.80 |
-| Verträglichkeit      | 150 | 3.20 | 0.38 | 2.20 | 3.90 |
-| Neurotizismus        | 150 | 2.38 | 0.59 | 1.20 | 3.90 |
-| GAAIS positiv        | 150 | 3.81 | 0.71 | 1.00 | 5.00 |
-| GAAIS negativ        | 150 | 3.02 | 0.75 | 1.25 | 4.75 |
+| Variable             |   N |     M |    SD |   Min |   Max | Median |
+|:---------------------|----:|------:|------:|------:|------:|-------:|
+| Offenheit            | 150 | 24.41 |  4.72 | 14.00 | 35.00 |  24.00 |
+| Gewissenhaftigkeit   | 150 | 28.03 |  4.28 | 16.00 | 39.00 |  28.00 |
+| Extraversion         | 150 | 26.53 |  5.46 | 12.00 | 38.00 |  27.00 |
+| Verträglichkeit      | 150 | 31.99 |  3.78 | 22.00 | 39.00 |  32.00 |
+| Neurotizismus        | 150 | 23.77 |  5.89 | 12.00 | 39.00 |  24.00 |
+| GAAIS positiv        | 150 | 45.77 |  8.56 | 12.00 | 60.00 |  46.00 |
+| GAAIS negativ        | 150 | 24.17 |  6.03 | 10.00 | 38.00 |  24.00 |
 
-*Anmerkung: Werte basieren auf Skalenmittelwerten (MEAN-Variablen)*
+*Anmerkung: Werte basieren auf Summenwerten (Summen-Variablen)*
 
 ---
 
@@ -147,7 +147,7 @@ Die Ergebnisse deuten darauf hin, dass Persönlichkeitsmerkmale die Einstellung 
 | Analysemethode | Pearson-Korrelationen |
 | Software | Python 3.11 (pandas, scipy) |
 | Datenbasis | KIPM_statistische Auswertung_20251116 |
-| Verwendete Variablen | Skalenmittelwerte (_MEAN) |
+| Verwendete Variablen | Summenwerte (Summen-Variablen) |
 | Fehlende Werte | Listenweiser Fallausschluss |
 
 ---
@@ -161,4 +161,3 @@ Die Ergebnisse deuten darauf hin, dass Persönlichkeitsmerkmale die Einstellung 
 
 *Analyse erstellt am: Dezember 2025*  
 *Datenquelle: KIPM_statistische Auswertung_20251116_1759_nach Rohwerten bereinigte Daten.csv*
-
